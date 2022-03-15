@@ -2,7 +2,7 @@ module github.com/phachon/mm-wiki
 
 go 1.12
 
-replace github.com/coreos/go-systemd => ./vendor/github.com/coreos/go-systemd
+replace github.com/coreos/go-systemd => github.com/coreos/go-systemd/v22 v22.0.0
 
 require (
 	github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a // indirect
